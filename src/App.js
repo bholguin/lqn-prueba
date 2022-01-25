@@ -3,6 +3,7 @@ import "./App.css";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { Card } from "@mui/material";
+import { MyButton } from './components/Button'
 
 function App() {
   const StyledBody = styled.div`
@@ -15,6 +16,8 @@ function App() {
         <Card>
           <img src={logo} className="App-logo" alt="logo" />
         </Card>
+
+        <MyButton/>
 
         <a
           className="App-link"
